@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Апартаменти - ПросторБГ</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">🏠 ПросторБГ</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Начало</a></li>
+                    <li><a href="Apartments.html" class="active">Апартаменти</a></li>
+                    <li><a href="Houses.html">Къщи и етажи</a></li>
+                    <li><a href="HousesYards.html">Къщи с двор</a></li>
+                    <li><a href="Contacts.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <section class="page-title">
+        <div class="container">
+            <h1>Апартаменти</h1>
+            <p>Разгледайте нашите най-добри предложения за апартаменти</p>
+        </div>
+    </section>
+
+   
+    <section class="filters">
+        <div class="container">
+            <h2>Филтрирай по:</h2>
+            <form class="filter-form">
+                <label for="city">Град:</label>
+                <select name="city" id="city">
+                    <option value="">Всички</option>
+                    <option value="sofia">София</option>
+                    <option value="varna">Варна</option>
+                    <option value="plovdiv">Пловдив</option>
+                    <option value="burgas">Бургас</option>
+                </select>
+
+                <label for="price">Цена:</label>
+                <select name="price" id="price">
+                    <option value="">Всички</option>
+                    <option value="50000-100000">50,000 - 100,000 EUR</option>
+                    <option value="100000-150000">100,000 - 150,000 EUR</option>
+                    <option value="150000-200000">150,000 - 200,000 EUR</option>
+                </select>
+
+                <button type="submit" class="btn">Приложи филтри</button>
+            </form>
+        </div>
+    </section>
+
+   
+    <section class="apartments-list">
+        <div class="container">
+            <h2>Списък с апартаменти</h2>
+
+            <div class="properties-grid">
+
+               
+                <div class="property-card">
+                    <img src="IMG/Apartments/apartments2.jpg" alt="Апартамент в София"width="500" height="250">
+                    <h3>Двустаен апартамент в София</h3>
+                    <p>Цена: 150,000 EUR</p>
+                    <p>Локация: София, ж.к. Младост</p>
+                    <a href="ApartmentSofia.html" class="btn btn-small">Виж повече</a>
+                </div>
+
+               
+                <div class="property-card">
+                    <img src="IMG/Apartments/apartments3.jpg" alt="Апартамент в Пловдив"width="500" height="250">
+                    <h3>Тристаен апартамент в Пловдив</h3>
+                    <p>Цена: 150,000 EUR</p>
+                    <p>Локация: Пловдив, кв. Тракия</p>
+                    <a href="property-details.html" class="btn btn-small">Виж повече</a>
+                </div>
+
+                
+                <div class="property-card">
+                    <img src="IMG/Apartments/apartments4.jpg" alt="Апартамент във Варна"width="500" height="250">
+                    <h3>Едностаен апартамент във Варна</h3>
+                    <p>Цена: 85,000 EUR</p>
+                    <p>Локация: Варна, кв. Левски</p>
+                    <a href="property-details.html" class="btn btn-small">Виж повече</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 ПросторБГ - Всички права запазени.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Къщи с двор - ПросторБГ</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">🏠 ПросторБГ</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="Index.html">Начало</a></li>
+                    <li><a href="Apartments.html">Апартаменти</a></li>
+                    <li><a href="Houses.html">Къщи и етажи</a></li>
+                    <li><a href="HousesYards.html" class="active">Къщи с двор</a></li>
+                    <li><a href="Contacts.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section class="page-title">
+        <div class="container">
+            <h1>Къщи с двор</h1>
+            <p>Открийте своя дом със зелен простор и уютен двор</p>
+        </div>
+    </section>
+
+    
+    <section class="filters">
+        <div class="container">
+            <h2>Филтрирай по:</h2>
+            <form class="filter-form">   <!--wea-->
+                <label for="city">Град:</label>
+                <select name="city" id="city">
+                    <option value="">Всички</option>
+                    <option value="sofia">София</option>
+                    <option value="varna">Варна</option>
+                    <option value="plovdiv">Пловдив</option>
+                    <option value="burgas">Бургас</option>
+                </select>
+
+                <label for="price">Цена:</label>
+                <select name="price" id="price">
+                    <option value="">Всички</option>
+                    <option value="150000-200000">150,000 - 200,000 EUR</option>
+                    <option value="200000-300000">200,000 - 300,000 EUR</option>
+                    <option value="300000-500000">300,000 - 500,000 EUR</option>
+                </select>
+
+                <button type="submit" class="btn">Приложи филтри</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <section class="houses-list">
+        <div class="container">
+            <h2>Списък с къщи с двор</h2>
+
+            <div class="properties-grid">
+
+               
+                <div class="property-card">
+                    <img src="IMG/HouseYard/HousesYards2.jpg" alt="Къща с двор в София" width="500" height="250">
+                    <h3>Двуетажна къща с двор в София</h3>
+                    <p>Цена: 300,000 EUR</p>
+                    <p>Локация: София, кв. Бояна</p>
+                    <a href="property-details.html" class="btn btn-small">Виж повече</a>
+                </div>
+
+                
+                <div class="property-card">
+                    <img src="IMG/HouseYard/HousesYards3.jpg" alt="Къща с двор във Варна" width="500" height="250">
+                    <h3>Къща с голям двор в Пловдив </h3>
+                    <p>Цена: 250,000 EUR</p>
+                    <p>Локация: Пловдив, кв. Остромила</p>
+                    <a href="HouseYardPlovdiv.html" class="btn btn-small">Виж повече</a>
+                </div>
+
+                
+                <div class="property-card">
+                    <img src="IMG/HouseYard/HousesYards4.jpg" alt="Къща с двор в Пловдив" width="500" height="250">
+                    <h3>Луксозна къща с голям двор в Пловдив</h3>
+                    <p>Цена: 450,000 EUR</p>
+                    <p>Локация: Пловдив, кв. Прослав</p>
+                    <a href="property-details.html" class="btn btn-small">Виж повече</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 ПросторБГ - Всички права запазени.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
